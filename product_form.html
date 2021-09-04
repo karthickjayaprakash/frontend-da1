@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           
+        
+          
+        <script src="https://kit.fontawesome.com/677aa17f7b.js" crossorigin="anonymous"></script>   
+        
+        
+            
+              <div class="topnav">                
+                    <a class="active" href="home_page.html"><i class="fas fa-home"></i>Home</a>
+                    <a class="active " href="products.html"><i class="fas fa-shopping-cart"></i>PRODUCTS</a>
+                    <a class="active  " href="product_form.html"><i class="fas fa-paste"></i>FORMS</a>
+                    <a class="active " href="faq.html"><i class="fas fa-question"></i>FAQ</a>                            
+            
+              </div>        
+          </nav>
+    </head>
+
+    
+    <body>
+      <div id="app">
+        <h1><u>PRODUCT DEMO FORM</u></h1>
+        
+        <form action="form_submit.php" method="post">
+            <div id="container"> 
+                <ol>
+                <p>Fill the form with Original details</p>
+                <hr size="px" color="white">
+                <li><p>CUSTOMER NAME:</p> </li>                  
+                <label> First Name: </label> <br>
+                <input type="text" name="firstname" placeholder= "Firstname" size="20" required /> 
+                <br>
+                <label>Middle Name:</label><br>
+                <input type="text " name="Midname" placeholder="Mindname"   size="20">
+                <br>
+                <label> Lastname: </label>  <br>
+                <input type="text" name="lastname" placeholder="Lastname" size="20" />
+                <br>
+                <hr size="px" color="white">
+                <li><label>Age:</label></li><br>
+                <input type="number"  placeholder="20-30" min="20" max="30" size="10">
+                <br><br> <hr size="px" color="white"> 
+                <li><label for="date">Date Of Birth:</label></li><br>
+                <input type="date" placeholder="y-m-d" min="1998-01-01" max="1999-12-31">
+                <br><br> <hr size="px" color="white"> 
+                <li><label>Gender:</label></li><br>
+                <input type="radio" name="gen" value="male">Male<br>
+                <input type="radio" name="gen" value="female">Female<br>
+                <input type="radio" name="gen" value="transgender">Transgender<br><br>
+                <hr size="px" color="white"> 
+                <li><label for="COLOR">Select MOBILE COLOR</label></li><br>
+                <label>color of mobile</label>
+                <input type="color">
+               <hr size="px" color="white"> 
+                <li><label for="date">Date Of DEMO:</label></li><br>
+                <input type="date" placeholder="y-m-d">  <hr size="px" color="white">   
+                <li><label for="date">TIME OF DEMO:</label></li><br>
+                <input type="time" placeholder="y-m-d">         
+              
+                    
+               
+                <hr size="px" color="white">                
+                <button class="btn" type="submit" href="/">Submit</button> &nbsp &nbsp&nbsp<button class="btn" type="reset" value="Reset">Reset</button>
+                                   
+                <hr size="px" color="white"> 
+                
+            </div>
+            
+            
+        </form><br>
+        <p>OUR PROUDCTS SATISFIES YOUR NEEDS WITH PLEASURE!!!</p>
+    </div>   
+
+        
+    </body>
+    <footer id="foot">
+      <div>
+
+          <P><B>CONTACT US: </B></P>
+          <b>Mobile:+919123456789</b><br> <a  href="https://www.instagram.com/_.karthick._j._/"><img src="logo.png" width="64" height="64 " alt="insta"></a><br>
+          
+  
+      </div>
+
+  </footer>            
+
+
+    <style>
+        .navbar-nav{
+            background-color:rgb(69, 221, 69);
+            font-size: 25px;
+            border: 2px solid coral;
+          }
+          #app{
+            
+            background-color: black;
+            color: blanchedalmond;
+            padding: 10% 20%;
+
+            
+          }
+          #foot{
+            background-color: black;
+            color: blanchedalmond;
+            display: flex;
+            flex-flow: column;
+            align-items: center;           
+
+          }
+          .container{
+           font: bold;
+           font-family: 'Times New Roman', Times, serif;
+           letter-spacing: 2px;
+           color: blanchedalmond;
+           border: 3px solid white;
+           background-color:rgb(43, 40, 40);
+           padding: 60px;
+           margin-bottom: 50px;
+          }
+          .btn{
+            position: relative;
+            display: inline-block;
+            padding: 15px 30px;
+            color: #2196f3;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            text-decoration: none;
+            font-size: 24px;
+            overflow: hidden;
+            transition: 0.2s;
+          }
+          .btn:hover{
+            color: #255784;
+            background: #2196f3;
+            box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+            
+          }
+          .topnav {
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a:hover {
+            background-color: rgb(252, 247, 247);
+            color: black;
+          }
+          
+          .topnav a.active {            
+            color: rgb(25, 250, 212);
+          }
+
+    </style>
+</html>
+
+
+
+
+
+
+
+
+
+
+
